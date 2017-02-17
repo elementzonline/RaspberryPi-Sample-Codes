@@ -1,0 +1,27 @@
+cameraImageTest.py
+=================
+
+This code is used to save an image file to the same folder where the code is.
+To run this open a Terminal in RPi and use "python cameraImageTest.py".
+
+
+cameraVideoTest.py
+=================
+
+This code will save a video file to the same folder where the code is.
+To run this open a Terminal in RPi and use "python cameraVideoTest.py".
+
+
+saveImage.sh
+=================
+This command will preview the RPI camera for 5 seconds and save an image in the same folder.
+For running use "sh saveImage.sh" in RPI terminal.
+
+
+saveVideo.sh
+=================
+This command will preview the RPI camera for 5 seconds and save a video.
+For running use "sh saveVideo.sh" in RPI terminal.
+
+To run the video use "omxplayer <videoname.extension>". For example of the video is saved as myvideo.mov then use 
+omxplayer myvideo.mov

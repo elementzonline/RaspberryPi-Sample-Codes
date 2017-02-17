@@ -1,0 +1,25 @@
+blinkled.py
+================
+
+Run blinkled.py to blink the led for 1 second. 
+
+The led should be connected to the 40th pin of the RPI. 
+
+
+Connect the cathode of LED to GND pin.
+Connect the anode of LED to 40 th pin.
+
+
+inputTest.py
+=================
+
+Run the inputTest.py to get the data from the digital sensor connected at Pin number 3 of RPI
+
+
+
+mqtt_gpio.py
+=================
+
+Run the code and it will connect to MQTT broker - iot.eclipse.org. Net connection is required for that.
+
+Use Android application to connect to the broker and publish data in the topic "gpiotest" as data high to turn on the led connected at 40th pin of Rpi. Sending low in the same topic will turn of the LED..

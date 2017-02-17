@@ -1,0 +1,1 @@
+raspivid -o myVideo.avi

@@ -1,0 +1,15 @@
+testSpeech.py
+================
+
+Testing code for Text to Speech functionality using espeak utility.
+
+Run testSpeech.py by typing "python testSpeech.py" in your RPi terminal.
+
+Note: To force the Audio to 3.5 mm jack headset, use "sudo raspi-config", Goto Audio session in Advanced Settings, choose Force 3.5mm option. Otherwise the audio will be routed through HDMI port.
+
+main_subscribe_speech.py
+===================
+
+Connect to internet first. and run the code using "python main_subscribe_speech.py",
+Connect a headset in 3.5 mm jack and listen to it.
+Push some data to "myspeak" topic using MQTT Dashboard Application. The data send should be spoken out through the speaker.

@@ -1,0 +1,9 @@
+main_publish.py and main_subscribe.py
+=================
+
+Prerequisites: Internet is to be connected.
+
+These are the starting code for MQTT. 
+To test the code first run main_subscribe.py in one Terminal and then run main_publish.py in another terminal. 
+
+You should see "Welcome to Open Source" text printed in the subscribe terminal.
