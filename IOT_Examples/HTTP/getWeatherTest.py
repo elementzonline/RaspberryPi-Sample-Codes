@@ -6,10 +6,7 @@ OpenWhethermap API
 import requests
 import json
 
-#pincode = raw_input("Enter your pincode: ")
-#days = raw_input("Number of days to forcast? ")
-
-appid = "paste your api key here"
+appid = "6e9770a6cfc7c3a60009efc5c900d082"
 
 cityName = raw_input("Enter city name to get the temperature data ")
 
